@@ -1,0 +1,49 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(6, 61, 14);
+    border-radius: 42px;
+    padding: 16px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 8px;
+    padding-left: 32px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 36px;
+}
+
+.h1{
+    color: rgb(20, 20, 20);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    color: rgb(26, 16, 179);
+}
+
+.conteudo {
+    padding: 8px;
+    padding-left: 32px;
+    background-color: rgb(194, 192, 192);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 36px;
+    color: rgb(1, 78, 33);
+}
+
+.conteudo p {
+    color: black;
+    font-size: 24px;
+}

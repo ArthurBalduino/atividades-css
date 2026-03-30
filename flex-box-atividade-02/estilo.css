@@ -1,0 +1,109 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    flex-direction: row;
+}
+
+.container2 {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    flex-direction: row;
+}
+
+.container3 {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.container4 {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+    flex-direction: row;
+}
+.container5 {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container6 {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: row;
+    padding-left: 185px;
+    padding-right: 185px;
+}
+
+.container-desafio {
+    width: auto;
+    height: fit-content;
+    margin-left: -8px;
+
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    flex-direction: row;
+}
